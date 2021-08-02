@@ -1,0 +1,36 @@
+header {
+    top: 0;
+    margin: 0;
+    padding: 10px;
+    width: 98.5%;
+    text-align: left;
+}
+
+footer {
+    bottom: 0;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.button {
+    background-color: rgb(209, 90, 126);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+#div1 {
+    margin-left: 2%;
+    margin-top: 4%;
+}

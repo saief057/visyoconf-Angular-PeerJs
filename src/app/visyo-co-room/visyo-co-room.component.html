@@ -1,0 +1,9 @@
+<div class="video-grid">
+    <div *ngFor="let video of videos">
+        <span *ngIf="video.userId !== currentUserId; else currentUserVideoLabel">{{ video.userId }}</span>
+        <ng-template #currentUserVideoLabel>
+        </ng-template>
+        <video [srcObject]="video.Streaming" (loadedmetadata)="onLoadedMetadata($event)" [muted]="video.muted">
+    </video>
+    </div>
+</div>
